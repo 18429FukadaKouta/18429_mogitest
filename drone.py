@@ -1,5 +1,5 @@
 # ドローン制御を定義するクラス
-class c(object):
+class DroneControl(object):
     def __init__(self, DRONE_NAME):
         assert isinstance(DRONE_NAME, object)
         self.drone_name = DRONE_NAME
